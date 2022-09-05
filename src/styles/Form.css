@@ -1,0 +1,31 @@
+.form {
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.form-input {
+    width: 80%;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.btn {
+    width: 8%;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: #414a4c;
+    color: greenyellow;
+}
+
+.btn:hover {
+    background-color: #6C3512;
+}
+
+.btn:active {
+    background-color: transparent;
+    color: green;
+}
