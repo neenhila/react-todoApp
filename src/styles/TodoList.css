@@ -1,0 +1,22 @@
+.todolist {
+    position: relative;
+    height: 99%;
+    width: 99%;
+    margin-top: 10px;
+   
+}
+
+.todolist ul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+
+.todolist ul li{
+    position: relative;
+    width: 99%;
+    margin-left: -30px;
+}
