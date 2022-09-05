@@ -1,0 +1,49 @@
+.todoBar {
+    position: relative;
+    width: 99%;
+    border: 1px solid #93CAED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 54px;
+    margin-bottom: 10px;
+}
+
+.editDeleteBar {
+    width: max-content;
+    height: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.edit {
+    margin-bottom: 4px;
+}
+
+.edit,
+.delete {
+    width: 100px;
+    height: 22px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 1px solid slateblue;
+}
+
+.edit:hover,
+.delete:hover {
+    background-color: slateblue;
+}
+
+.edit:active,
+.delete:active {
+    background-color: transparent;
+}
+
+.todoContent {
+    margin-left: 10px;
+}
